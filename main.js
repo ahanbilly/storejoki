@@ -227,7 +227,7 @@ function initParticles() {
 function buildPriceCard(d, i, jenis) {
   const delay = (i * 0.06).toFixed(2);
   const pesanText = encodeURIComponent(
-    `Halo kak, saya mau order *${jenis} ${d.rank}*\nRank tujuan: \nID MLBB: `
+    `Halo kak, saya mau order *${jenis}*\nTarget rank: *${d.rank}*\nID MLBB: `
   );
   const waLink = `https://wa.me/${WA_NUMBER}?text=${pesanText}`;
 
