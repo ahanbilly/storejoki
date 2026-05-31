@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joki Gendong — MLBB Joki Pro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<canvas id="particles-canvas"></canvas>
+<div class="noise-overlay"></div>
+
+<div class="site-wrapper">
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo" onclick="window.location.href='index.html'">MLBB<span>Joki</span>Pro</div>
+    <div class="nav-right">
+      <span class="nav-link" onclick="window.location.href='index.html'">Home</span>
+      <span class="nav-link active">Gendong</span>
+      <span class="nav-link" onclick="window.location.href='joki-akun.html'">Akun</span>
+      <span class="nav-btn-back" onclick="window.location.href='index.html'">← Kembali</span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow-orb"></div>
+    <div class="eyebrow-tag">
+      <span class="eyebrow-dot"></span>
+      Mode Carry · Akun Aman
+    </div>
+    <h1 class="hero-title">
+      <span class="line-white">Joki</span>
+      <span class="line-gold shimmer-text">Gendong</span>
+    </h1>
+    <p class="hero-sub">
+      Main bareng joker pro kami. Rank naik, akun tidak pindah tangan. Aman dan cepat.
+    </p>
+    <div class="hero-divider">
+      <div class="hero-divider-line"></div>
+      <div class="hero-divider-gem"></div>
+      <div class="hero-divider-line r"></div>
+    </div>
+  </section>
+
+  <!-- INFO PILLS -->
+  <div class="info-section">
+    <div class="info-grid">
+      <div class="info-pill" style="animation-delay:0s">
+        <span class="pill-icon">🎮</span>
+        <span class="pill-val">Party 5v5</span>
+        <div class="pill-txt">Main bareng tim joker terbaik</div>
+      </div>
+      <div class="info-pill" style="animation-delay:0.06s">
+        <span class="pill-icon">🔒</span>
+        <span class="pill-val">Akun Aman</span>
+        <div class="pill-txt">Akun tidak pernah dipinjam</div>
+      </div>
+      <div class="info-pill" style="animation-delay:0.12s">
+        <span class="pill-icon">⚡</span>
+        <span class="pill-val">Proses Cepat</span>
+        <div class="pill-txt">Langsung mulai setelah konfirmasi</div>
+      </div>
+      <div class="info-pill" style="animation-delay:0.18s">
+        <span class="pill-icon">🏆</span>
+        <span class="pill-val">Joker Pro</span>
+        <div class="pill-txt">Semua joker rank Mythic keatas</div>
+      </div>
+      <div class="info-pill" style="animation-delay:0.24s">
+        <span class="pill-icon">💬</span>
+        <span class="pill-val">Support 24/7</span>
+        <div class="pill-txt">Koordinasi via WA & Discord</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PRICING -->
+  <div class="pricing-section">
+    <div class="section-heading">
+      <div class="section-heading-line"></div>
+      <div class="section-heading-text">Daftar Harga Joki Gendong</div>
+      <div class="section-heading-line r"></div>
+    </div>
+    <div class="price-grid" id="grid-gendong"></div>
+  </div>
+
+  <!-- CTA WA -->
+  <div style="max-width:700px;margin:0 auto 60px;padding:0 32px;text-align:center;">
+    <div style="background:var(--bg-panel);border:1px solid var(--border-mid);border-radius:var(--radius-xl);padding:40px 32px;position:relative;overflow:hidden;">
+      <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--gold-main),transparent);"></div>
+      <div style="font-size:36px;margin-bottom:14px;">💬</div>
+      <div style="font-family:'Cinzel',serif;font-size:20px;font-weight:700;letter-spacing:2px;color:var(--gold-bright);margin-bottom:10px;text-transform:uppercase;">Mau Order Joki Gendong?</div>
+      <div style="font-size:14px;color:var(--text-mid);line-height:1.8;margin-bottom:28px;">Dikerjakan langsung oleh owner — bukan worker.<br>Chat sekarang, beritahu rank tujuanmu!</div>
+      <a href="https://wa.me/6289603601883?text=Halo%20kak%2C%20saya%20mau%20order%20*Joki%20Gendong*%0ARank%20tujuan%3A%20%0AID%20MLBB%3A%20" target="_blank" style="display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,#25D366,#128C7E);color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:700;letter-spacing:2px;text-transform:uppercase;padding:16px 36px;border-radius:50px;text-decoration:none;box-shadow:0 8px 30px rgba(37,211,102,0.3);">💬 Chat WhatsApp Bisnis</a>
+      <div style="margin-top:14px;font-size:12px;color:var(--text-dim);letter-spacing:1px;">0896-0360-1883</div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-logo">MLBBJokiPro</div>
+    <div class="footer-divider-gem"></div>
+    <p class="footer-text">
+      Harga sewaktu-waktu bisa berubah · Konfirmasi harga ke admin sebelum order<br>
+      © 2025 MLBBJokiPro · All Rights Reserved
+    </p>
+  </footer>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
