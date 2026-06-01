@@ -632,14 +632,14 @@ img { display: block; max-width: 100%; }
   justify-content: center;
 }
 .rank-img-strip img {
-  width: 110px;
-  height: 110px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   transition: transform 0.5s ease;
-  opacity: 0.92;
-  filter: drop-shadow(0 4px 16px rgba(201,168,76,0.18));
+  opacity: 1;
+  filter: drop-shadow(0 4px 20px rgba(0,0,0,0.5));
 }
-.price-card:hover .rank-img-strip img { transform: scale(1.1); opacity: 1; }
+.price-card:hover .rank-img-strip img { transform: scale(1.06); }
 
 /* placeholder if no image */
 .rank-img-placeholder {
@@ -658,8 +658,8 @@ img { display: block; max-width: 100%; }
   opacity: 0.5;
 }
 
-.rank-img-fade { display: none; }
-.rank-img-fade-top { display: none; }
+.rank-img-fade { display:none; }
+.rank-img-fade { display:none; }
 
 .featured-crown {
   position: absolute;
